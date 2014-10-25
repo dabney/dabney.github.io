@@ -1,0 +1,39 @@
+body {
+  font-family: 'Coustard', serif;
+  color: #40240e;
+  background: linear-gradient(to bottom, #bea070, #bb7a3b);
+}
+
+header {
+  border-bottom: 3px solid #2c190a;
+}
+
+a, 
+a:hover, 
+a:focus {
+  color: #40240e;
+  text-decoration: none;
+}
+
+
+.margin-vertical {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.wide-spaced-letters {
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+  h1, 
+  h2, 
+  h3, 
+  h4 {
+    text-align: center;
+  }
+  .margin-vertical {
+    margin-bottom: 10px;
+  }
+}
